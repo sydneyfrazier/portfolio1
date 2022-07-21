@@ -2,26 +2,68 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>assignment 6</title>
-  </head>
+     <title>assignment 6</title>
+      <style media="screen">
+/* body {
+       background-color:#CDE7BE;
+       color:#EAF2E3;
+      } */
+ol{
+    background-color:#ECDD7B
+    padding:24px
+    bottom-padding:24px
+  }
+  ol li {
+  background-color: orange;
+}
+    #item{
+background-color: lime
+font-family:sans-serif;
+  }
+  #item{
+background-color: pink
+font-family:serif;
+}
+    #item{
+background-color: green
+font-family:cursive;
+   }
 
 
+      </style>
+       </head>
+      <body>
 
-  <h1>This is assignment 6</h1>
-  <h1>Nav menu 1</h1>
-
-<ul style="list-style-type:none;color:##71816D; background-color:#EAF2E3">
-  <li>item</li>
-  <li style="background-color:#BF9ACA">item</li>
-  <li>item</li>
-  <li>item</li>
+   <h1>This is assignment 6</h1>
+<!-- unordered list with inline styling -->
+  <h1>Nav menu 1 (inline css)</h1>
+<ul style="list-style-type:none;color:##71816D; background-color:#243010">
+  <li><a href="#"></a>item</li>
+  <li style="background-color:#BF9ACA"><a href="#"></a>item</li>
+  <li><a href="#"></a>item</li>
+  <li><a href="#"></a>item</li>
 </ul>
 
-
-
-  <body>
-
-
+<!-- ordered list with internal styling -->
+<h1>Nav Menu 2 (with internal CSS)</h1>
+    <ol>
+      <li id="item1">
+        <a href="#">item</a>
+      </li>
+      <li id="item2">
+        <a href="#">item</a>
+      </li>
+      <li id="item3">
+        <a href="#">item</a>
+      </li>
+    </ol>
+<!-- ordered list with external styling -->
+<h1>Nav Menu 3 (with external CSS)</h1>
+<ul id="nav-list"type="I">
+  <li><a href="#">home</a></li>
+  <li><a href="#">school assignments</a></li>
+  <li><a href="#">contact</a></li>
+</ul>
 
   </body>
 </html>
