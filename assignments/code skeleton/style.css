@@ -1,0 +1,10 @@
+body{
+  /* background-color:blue; */
+  background-image: url('assets/sunset1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#fff;
+
+
+}
