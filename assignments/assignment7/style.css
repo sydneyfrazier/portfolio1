@@ -3,13 +3,14 @@ body{
   font-family:sans-serif;
 }
 
-header, footer {
+#header, #footer {
   background-color: #000;
   color: #049993;
 padding: 12px;
   /* height: 100px; */
 }
- nav ul li{
+
+ #nav ul li{
    display: inline;
    list-style-type: none;
  }
@@ -22,13 +23,13 @@ padding: 12px;
    color: #000;
  }
 
-main{
+#main{
   background-color: #049993;
   padding: 12px;
 }
-
-section{
-  background-color: #C4C5C6;
+/* formerly 'section' */
+.section{
+background-color: #C4C5C6;
 padding: 12px;
 }
 
