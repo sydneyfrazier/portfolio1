@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+body{
+  margin-left: 0;
+}
+
+header{
+
+  padding-left: 30px;
+  font-family: 'Mouse Memoirs';
+}
+
+ tr:hover{
+   background-color: lavender;
+ }
+
+ th, td{
+   padding: 15px;
+   text-align: center;
+
+ }
+
+ caption{
+   text-align: left;
+   font-weight: bold;
+   font-size: xx-large;
+   margin-bottom: 15px;
+ }
+
+ .header-col{
+   background-color: #D3D3D3;
+ }
+
+ .table-col{
+   background-color: #9BD5E3;
+ }
