@@ -1,0 +1,111 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+
+.container-1{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+
+}
+
+.container-2{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+
+}
+
+.container-3{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  width: 600px;
+
+}
+
+.container-4{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  width: 600px;
+
+}
+
+.container-5{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 600px;
+
+
+}
+
+
+
+
+
+
+.item{
+  height: 50px;
+  flex: 1;
+  text-align: center;
+}
+
+.item-1{
+  width: 300px;
+  height: 30px;
+}
+
+.item-2{
+  height: 50px;
+  width: 600px;
+}
+
+.item-3{
+  height: 60px;
+  width: 300px;
+}
+
+.item-4{
+height: 40px;
+width: 500px;
+
+}
+
+.item-5{
+  height: 25px;
+  width: 600px;
+}
+
+.red-bg{
+  background-color: #96031A;
+}
+
+.blue-bg{
+  background-color: #9DD1F1;
+}
+
+.green-bg{
+background-color: #4F772D;
+
+}
+
+.yellow-bg{
+  background-color: #FFE066;
+}
+
+.pink-bg{
+  background-color: #EC5766;
+}
