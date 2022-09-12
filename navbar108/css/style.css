@@ -1,0 +1,9 @@
+ul{
+  background-color: lavender;
+
+}
+
+li{
+  display: inline;
+  padding: 10px;
+}
