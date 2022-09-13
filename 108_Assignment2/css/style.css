@@ -1,0 +1,38 @@
+body{
+  height: 1500px;
+  position: relative;
+}
+
+nav{
+  background-color: lightblue;
+}
+
+#navbar1{
+  background-color: lightgreen;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar2{
+  background-color: lightblue;
+  position: relative;
+  top: 150px;
+  width: 100%;
+}
+
+#navbar3{
+  background-color: orange;
+  position: absolute;
+  bottom: 150px;
+  width: 100%;
+}
+
+ul{
+  /* background-color: lavender; */
+
+}
+
+li{
+  display: inline;
+  padding: 10px;
+}
