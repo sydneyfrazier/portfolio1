@@ -41,7 +41,7 @@ a {
 nav,
 nav a,
 footer a {
-  color: indigo;
+  color: #466425;
 }
 
 nav a:hover,
@@ -84,7 +84,7 @@ footer {
   grid-area: footerArea;
 }
 section {
-  border: 4px solid lightblue;
+  border: 4px solid #466425;
 }
 
 /****************************************************************************
@@ -124,7 +124,7 @@ nav .socialMedia {
 nav,
 nav a,
 footer a {
-  color: lightblue;
+  color: #466425;
 }
 
 nav a:hover,
@@ -157,7 +157,7 @@ nav h2 {
 #hero h1, #hero h4 {
   color: white;
 }
-#hero a {
+#hero a, .card a {
   background-color: white;
   color: lightblue;
   border: solid 2px lightblue;
@@ -168,16 +168,30 @@ nav h2 {
   transition: transform 0.5s;
 }
 
-#hero a:hover {
+#hero a:hover,
+.car a:hover {
   transform: scale(1.1);
 }
-
-
-
-
 /****************************************************************************
   Card styles
 ****************************************************************************/
+#threeCards, #twoCards {
+  display: flex;
+}
+.card {
+  border: 2px solid #52752B;
+  color: #006989;
+  margin: 48px 24px 24px;
+  /* first second and third */
+  padding: 12px 12px 24px;
+  text-align: center;
+  box-shadow: 4px 4px 8px 0px #466425;
+  flex: 1;
+}
+.card p {
+  font-size: 18px;
+  min-height: 100px;
+}
 
 /****************************************************************************
   Gallery styles
@@ -199,6 +213,9 @@ nav h2 {
   }
 
   nav {
+    flex-direction: column;
+  }
+  #twoCards, #threeCards {
     flex-direction: column;
   }
 }
