@@ -158,6 +158,7 @@ nav h2 {
   color: white;
 }
 #hero a, .card a {
+  display: inline-block;
   background-color: white;
   color: lightblue;
   border: solid 2px lightblue;
@@ -169,7 +170,7 @@ nav h2 {
 }
 
 #hero a:hover,
-.car a:hover {
+.card a:hover {
   transform: scale(1.1);
 }
 /****************************************************************************
