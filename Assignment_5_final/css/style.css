@@ -13,12 +13,11 @@ body {
   margin: 0;
 }
 
-h1,
-h3 {
+h1 {
   font-family: 'Bungee Spice';
 }
 
-h4, h2,
+h4, h2, h3,
 p, a {
   font-family: 'Tiro Telugu';
 }
@@ -40,12 +39,13 @@ a {
 nav,
 nav a,
 footer a {
-  color: #466425;
+  color: #46642;
 }
 
 nav a:hover,
 footer a:hover {
-  text-decoration: underline;
+
+  color: orange;
 }
 
 /****************************************************************************
@@ -127,7 +127,7 @@ nav .socialMedia {
 nav,
 nav a,
 footer a {
-  color: #466425;
+  color: #000;
 }
 
 nav a:hover,
@@ -152,7 +152,7 @@ nav h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(../assets/background.jpg);
+  background-image: url(../assets/background2.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -163,8 +163,8 @@ nav h2 {
 #hero a, .card a {
   display: inline-block;
   background-color: white;
-  color: lightblue;
-  border: solid 2px lightblue;
+  color: pink;
+  border: solid 2px pink;
   border-radius: 24px;
   padding: 8px 16px;
   margin-top: 12px;
@@ -183,13 +183,13 @@ nav h2 {
   display: flex;
 }
 .card {
-  border: 2px solid #52752B;
-  color: #006989;
+  border: 2px solid pink;
+  color: #000;
   margin: 48px 24px 24px;
   /* first second and third */
   padding: 12px 12px 24px;
   text-align: center;
-  box-shadow: 4px 4px 8px 0px #466425;
+  /* box-shadow: 4px 4px 8px 0px magenta; */
   flex: 1;
 }
 .card p {
