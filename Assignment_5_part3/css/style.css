@@ -83,9 +83,9 @@ nav {
 footer {
   grid-area: footerArea;
 }
-section {
+/* section {
   border: 4px solid #466425;
-}
+} */
 
 /****************************************************************************
   Nav/Footer styles
@@ -212,8 +212,8 @@ nav h2 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 #gallery2 img {
-  height: 266.6px;
-  width: 266.6px;
+  height: 333.3px;
+  width: 333.3px;
   object-fit: cover;
 }
 #gallery3 {
@@ -230,7 +230,7 @@ nav h2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-height: 1200px;
+  max-height: 1245px;
 }
 #gallery4 img {
   width: 30%;
@@ -264,5 +264,23 @@ nav h2 {
   }
   #twoCards, #threeCards {
     flex-direction: column;
+  }
+
+  #gallery1, #gallery2 {
+    grid-template-columns: 1fr;
+  }
+
+  #gallery2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  #gallery4 img {
+    width: 45%;
+    columns: 2 auto;
+  }
+
+  #gallery5 {
+    columns: 2 auto;
   }
 }
