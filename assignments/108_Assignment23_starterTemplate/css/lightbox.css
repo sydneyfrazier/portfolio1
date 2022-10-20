@@ -9,9 +9,13 @@
   left: 0px;
   top: 0px;
   padding: 24px;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
+}
+
+#lightboxContainer.display{
+  display: flex;
 }
 
 #lightboxBackground {
