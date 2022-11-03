@@ -12,11 +12,13 @@
         align-items: center;
         justify-content: center;
         height: 100vh;
-        background-color: darkred;
-        background-image: url(assets/christmas_tree.png);
-        background-position: bottom left;
+        background-color: #fff;
+        background-image: url(assets/happyGrad.jpg);
+        background-position: center;
         background-repeat: no-repeat;
+        background-size: 1820px;
       }
+
     </style>
   </head>
   <body>
@@ -50,7 +52,7 @@
       return `${days}d ${hours}h ${minutes}m ${seconds}s left`;
      }
 
-     let deadline = new Date("December 25, 2022 13:00:00");
+     let deadline = new Date("November 28, 2022 13:00:00");
      let countdown = document.getElementById("countdown");
      countdown.innerHTML = "";
 
